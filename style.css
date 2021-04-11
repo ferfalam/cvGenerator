@@ -1,0 +1,38 @@
+.container{
+    margin: 10px 20px;
+}
+
+input{
+    margin-top: 3px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 20px;
+}
+input[type = 'file']{
+    height: auto;
+}
+textarea{
+    width: 100%;
+}
+label,legend{
+    font-weight: bold;
+}
+.input-group label span{
+    color: red;
+}
+fieldset{
+    display: block;
+    margin: 15px !important;
+}
+fieldset fieldset{
+    display: block;
+    margin: 0;
+}
+input[type = 'submit']{
+    height: 25px;
+    border: outset;
+}
+
+.error{
+    color: red;
+}
